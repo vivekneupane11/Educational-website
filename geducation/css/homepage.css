@@ -1,0 +1,538 @@
+/*banner starts here*/
+/*************************banner starts here*/
+/*******************************************************banner starts *******/
+/*banner starts here*/
+/*************************banner starts here*/
+/*******************************************************banner starts *******/
+/*banner starts here*/
+/*************************banner starts here*/
+/*******************************************************banner starts *******/
+*{
+    margin:0;
+    padding:0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  .no-scroll{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#loginbackground{
+visibility: hidden;
+z-index: -1;
+
+}
+.topbar{
+    background-color:black;
+    width:100%;
+    height:auto;
+    height:50px;
+    display:grid;
+    grid-template-columns: 5fr 2fr 2fr;
+    grid-gap:1px;
+    background-position: fixed;
+}
+.topbar p{
+    text-align: inherit;
+color:rgb(171, 171, 171);
+font-weight:700; 
+font-size:12px;   
+line-height:50px;
+margin-left:100px;
+font-family: roboto;
+}
+#phoneemail{
+    margin-left:0px;
+    color:rgb(255,255,255);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing: 0.2px;
+}
+.banner{
+    background-image: url('../images/back.jpg');
+    height:110vh;
+    background-size: cover;
+    background-position: relative;
+}
+.banner-content{
+   display:grid;
+   grid-template-columns: 2fr 5fr;
+}
+.banner_heading{
+   display:grid;
+   grid-auto-rows: 1fr 1fr;
+
+  height:40px;
+}
+.icon_info{
+    margin-left:80px;
+    margin-top:20px;
+
+}
+.icon_info p{
+    font-family: 'Roboto Slab', serif;
+    font-size:18px;
+    font-weight:bolder;
+    color:black
+  
+    
+}
+.icon_info h1{
+    font-family: 'Roboto Slab', serif;
+    font-size:120px;
+    font-weight:900;
+    color:black;
+  
+    margin-right:10px;
+ 
+
+}
+.getnow{
+    line-height:40px;
+  width:120px;   
+  height:40px;
+  background-color:#ffee00;
+  border:none;
+  color:black;  
+  font-family:'Roboto Slab',serif;
+  list-style:none;
+  text-align: center;
+  position: relative;
+}
+
+.navbar{
+    background-color:transparent;
+    height:90px;
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    position: fixed;
+
+}
+
+.navbar img{
+    margin-left:100px;
+    margin-top:20px;
+  
+}
+.navbar ul li {
+    list-style: none;
+    display:inline;
+    margin:15px;
+    padding:2px;
+   line-height:90px;
+   color:black;
+}
+
+
+
+.navbar ul li:hover{
+
+border-bottom:3px solid gold;
+cursor:pointer;
+
+}
+
+
+.navlinks{
+    justify-content: end;
+    margin-left:25px;
+    font-family: 'Roboto';
+    font-size:14px;
+    font-weight:600;
+   
+    color:white;
+
+}
+.bannercategory{
+  
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    color:white;
+    margin-top:50vh;
+    margin-left:80px;
+    margin-right:80px;
+}
+.category1{
+width:400px;
+background-color:rgba(0, 0, 0, 0.7); /* 0.5 le aadi kalo banayaoo */
+display:grid;
+grid-template-columns: 1fr 2fr;
+grid-row: minmax(500px,auto);
+
+}
+.category2{
+    width:400px;
+    background-color:rgba(0, 0, 0, 0.7); /* 0.5 le aadi kalo banayaoo */
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row: minmax(500px,auto);
+    
+    }
+    .category3{
+        width:400px;
+        background-color:rgba(0, 0, 0, 0.7); /* 0.5 le aadi kalo banayaoo */
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        grid-row: minmax(500px,auto);
+        
+        }
+.category1 img{
+    padding:3rem;
+}
+.category2 img{
+    padding:3rem;
+}
+.category3 img{
+    padding:3rem;
+}
+.category1 h2{
+    font-family: 'Roboto Slab', serif;
+    font-size:24px;
+    font-weight:bolder;
+    color:white;
+   
+    margin-top:30px;
+ 
+}
+.category2 h2{
+    font-family: 'Roboto Slab', serif;
+    font-size:24px;
+    font-weight:bolder;
+    color:white;
+   
+    margin-top:30px;
+ 
+}
+.category3 h2{
+    font-family: 'Roboto Slab', serif;
+    font-size:24px;
+    font-weight:bolder;
+    color:white;
+   
+    margin-top:30px;
+ 
+}
+.coursediv{
+ 
+display:none;
+position:fixed; 
+margin-top:0px;
+float:top;
+}
+.coursediv1{
+    height:400px;
+    width:900px;
+background-color:white;
+margin-top:70px;
+   margin-left:400px;
+   background-position: absolute;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+z-index:1;
+position:fixed;
+}
+.coursediv .courselist ul li:nth-child(1){
+    font-family: 'Roboto';
+    font-size:15px;
+    font-weight:900;
+   color: rgb(51, 51, 51);
+ 
+   list-style:none;
+   padding:1rem;
+ 
+    
+}
+.coursediv .courselist ul li{
+    font-family: 'Roboto';
+    font-size:15px;
+    font-weight:700;
+   color: rgb(51, 51, 51,0.5);
+ margin-left:10px;
+   list-style:none;
+   padding:10px;
+    
+}
+.coursediv .courselist ul li:hover{
+    color: rgb(51, 51, 51);
+    cursor:pointer;
+}
+.coursediv .readmore img{
+    width:200px;
+    height:200px;
+  padding:10px; 
+}
+.coursediv .readmore p{
+    font-family: 'Roboto';
+    font-size:15px;
+    font-weight:700;
+   color: rgb(51, 51, 51);
+   padding:3px;
+
+
+
+}
+#coursefree{
+    font-family: 'Roboto';
+    font-size:15px;
+    font-weight:700;
+   color: rgb(0, 214, 55);
+   margin-left:60px;
+   text-decoration: underline;
+
+
+}
+/*search bar suru*/
+.banner .search{
+    display:grid;
+    visibility:hidden;
+
+    grid-template-columns: 1fr 3fr 1fr;
+    height:40vh;
+width: 1340px;;
+background-color:rgba(0, 0, 0, 0.7);
+z-index:1;
+border:1px solid black;
+position:absolute;
+margin-left:0;
+margin-top:0;
+z-index:1;
+}
+.banner .searchmain{
+    display:grid;
+    visibility:hidden;
+
+    grid-template-columns: 1fr 3fr 1fr;
+    height:105vh;
+width: 1340px;;
+background-color:rgba(0, 0, 0, 0.7);
+z-index:1;
+border:1px solid black;
+position:absolute;
+margin-left:0;
+margin-top:0;
+z-index:1;
+}
+
+
+#searchbutton:hover{
+    cursor:pointer;
+}
+.banner .search:hover{
+    background-color:rgba(0, 0, 0,0.9);
+    cursor: crosshair;
+}
+/*search bar khattam*/
+/*banner ends here*/
+/*************************banner ends here*/
+/*******************************************************banner ends *******/
+/*banner ends here*/
+/*************************banner ends here*/
+/*******************************************************banner ends *******/
+/*banner ends here*/
+/*************************banner ends here*/
+/*******************************************************banner ends *******/
+
+
+
+/*********T I M ER S TARTS HE RE )))))))))))))))))))))*/
+/*********T I M ER S TARTS HE RE )))))))))))))))))))))*/
+/*********T I M ER S TARTS HE RE and All form and banner with it )))))))))))))))))))))*/
+
+.timers{
+ 
+}
+.timer{
+   
+
+    height:100vh;
+    width:100%;
+    position: relative;
+    background-image:url('../images/samata.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#timertext{
+    font-family:  'Roboto';
+    font-size:28px;
+    font-weight:900;
+    color:black;
+  float:right;
+    margin-top:1px;
+    background-attachment: fixed;
+    margin-right:20px;
+}
+#timertext1{
+    float:right;
+    font-family:  'Roboto';
+    font-size:24px;
+    font-weight:900;
+    color:rgb(255, 182, 6);
+  margin-left:2px;
+    margin-top:0px;
+    background-attachment: fixed;
+    margin-right:80px;
+}
+#timertext2{
+    float:right;
+    font-family:  'Roboto';
+    font-size:72px;
+    font-weight:700;
+    color:white;
+   margin-left:400px;
+   margin-right:80px;
+    background-attachment: fixed;
+}
+.events #timertext3{
+    float:right;
+    font-family:  'Roboto';
+    font-size:62px;
+    font-weight:700;
+    color:yellow;
+float:left;
+}
+.events #timertext{
+    font-family:  'Roboto';
+    font-size:28px;
+    font-weight:900;
+    color:black;
+  float:left;
+ 
+    background-attachment: fixed;
+
+}
+.events #timertextx{
+    font-family:  'Roboto';
+    font-size:28px;
+    font-weight:900;
+    color:white;
+  float:left;
+ 
+    background-attachment: fixed;
+
+}
+.form{
+    float:right;
+    height:450px;
+    width:400px;
+    background-image:url('../images/svg.svg');
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    margin-right:80px;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+
+}
+#boxes{
+    margin-top:120px;
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    margin-left:50px;
+    
+}
+.boxes{
+    height:13px;
+    padding:1rem;
+}
+.boxesbutton{
+    flex-basis: auto;
+    padding:1rem;
+    background-color:black;
+    color:white;
+    font-size:16px;
+font-weight: 500;
+font-family:'roboto';
+border:none;
+}
+
+.boxesbutton:hover{
+background-color:#ffee00;
+transition:1s all;
+color:black;
+font-size:16px;
+font-weight: 500;
+font-family:'roboto';
+cursor:pointer;
+}
+
+
+
+/*************************TIMER ENDS HERE **************************************************/
+/*************************TIMER ENDS HERE **************************************************/
+/*************************TIMER ENDS HERE **************************************************/
+
+
+/*****************EVENTS STARTS HETE ******************************/
+
+.events h1{
+  margin-top:30px;
+    margin-left:10px;
+    font-family:roboto;
+    letter-spacing: 1PX;
+    color:#110f0f;
+}
+.events p{
+     font-family:roboto;
+     font-size:15px;
+     font-weight:400px;
+     padding:0.5rem;
+     color: rgb(153, 153, 153);
+}
+
+
+
+
+/*************REGISTER.PHP STARTS HERE**************************************/
+
+.registration{
+  display:grid;
+  grid-gap:4px;
+  grid-template-columns:2fr  3fr;
+  padding:2px;
+}
+
+.event{
+  display:grid;
+  grid-gap:5px;
+  grid-template-areas: 
+                      "event1 event2"
+                      "event3 event4";
+
+
+}
+.event1{
+  grid-area: event1;
+
+border-right:1px solid #c5ccd8;
+}
+
+.event2{
+  grid-area: event2;
+
+}
+.event3{
+  grid-area: event3;
+}
+.event4{
+ height:210px;
+ width:520px;
+ background-color: red;
+ float:right;
+ margin-top:-205px;
+ margin-right:128px;
+}
+.footer-grid{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(5,1fr);
+    padding:1rem;
+}
